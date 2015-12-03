@@ -10,7 +10,7 @@ namespace AzureSample.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            throw new NullReferenceException("Sample exception");
         }
 
         public ActionResult About()
