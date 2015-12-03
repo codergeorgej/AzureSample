@@ -15,7 +15,7 @@ namespace AzureSample.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page testinnnnnnnn.";
 
             return View();
         }
